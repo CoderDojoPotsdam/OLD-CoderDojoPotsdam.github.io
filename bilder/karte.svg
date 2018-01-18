@@ -92,7 +92,7 @@
          id="tspan3064"
          x="48.5"
          y="378.86218" /></text>
-    <a xlink:href="../golm">
+    <a xlink:href="../golm" target="_blank">
       <g
          id="g3894">
         <g
@@ -168,7 +168,7 @@
              sodipodi:role="line">SFB1294</tspan></text>
       </g>
     </a>
-    <a xlink:href="../hpi">
+    <a xlink:href="../hpi" target="_blank">
       <g
          id="g3882">
         <path
@@ -244,7 +244,7 @@
              sodipodi:role="line">HPI</tspan></text>
       </g>
     </a>
-    <a xlink:href="https://www.openstreetmap.org/copyright">
+    <a xlink:href="https://www.openstreetmap.org/copyright" target="_blank">
       <g id="copyright">
         <rect
            style="fill:#ffffff;fill-opacity:0.73891625;stroke:#0055d4;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
