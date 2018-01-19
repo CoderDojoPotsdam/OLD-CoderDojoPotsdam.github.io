@@ -15,3 +15,17 @@ body {
   background: url("../bilder/hintergrund.jpg") no-repeat center center fixed;
   background-size: cover;
 }
+
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .link {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: rgba(255,255,255,0.8);
+}
