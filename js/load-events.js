@@ -1,5 +1,6 @@
 
 const months = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+const weekDays = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
 
 function loadDojoEvents(dojoId, eventsCallback) {
   // from https://stackoverflow.com/a/9713078
@@ -49,7 +50,7 @@ function loadEvent(nextEventDiv) {
     var allMinutes = (end - start) / 1000 / 60;
     var hours = allMinutes / 60;
     var minutes = allMinutes % 60;
-    var timeText = start.getDate() + ". " + months[start.getMonth()] + /*" " + start.getHours() + ":" + (start.getMinutes() < 10 ? "0": "") + start.getMinutes() +*/ " (" + hours + " Stunden" + (minutes == 0 ? "" : minutes + "Min.") + ")";
+    var timeText = weekDays[start.getDay()] + ", " + start.getDate() + ". " + months[start.getMonth()] + /*" " + start.getHours() + ":" + (start.getMinutes() < 10 ? "0": "") + start.getMinutes() +*/ " (" + hours + " Stunden" + (minutes == 0 ? "" : minutes + "Min.") + ")";
     var timeNode = document.createTextNode(timeText);
     var address = document.createTextNode(nextEvent.address);
     nextEventDiv.appendChild(document.createTextNode("Nächster Termin: "));
