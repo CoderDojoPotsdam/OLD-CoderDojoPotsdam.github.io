@@ -36,7 +36,6 @@ function loadNextEvent(dojoId, eventCallback) {
       if (eventTime(event) < eventTime(nextEvent)) {
         nextEvent = event;
       }
-      console.log("event time " + dojoId + " " + eventTime(event));
     });
     eventCallback(nextEvent) // todo find first event
   });
