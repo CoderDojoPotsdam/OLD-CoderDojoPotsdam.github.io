@@ -40,9 +40,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="656.73892"
-     inkscape:cy="353.36908"
+     inkscape:zoom="2"
+     inkscape:cx="734.81833"
+     inkscape:cy="333.45326"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -64,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,13 +74,14 @@
      id="layer1"
      transform="translate(228.57143,-219.50504)">
     <image
-       y="191.07646"
-       x="-339.71429"
-       id="image3012"
+       sodipodi:absref="/home/user/coderdojopotsdam.github.io/bilder/karte.jpg"
        xlink:href="karte.jpg"
-       height="734"
+       clip-path="url(#clipPath3017)"
        width="1348"
-       clip-path="url(#clipPath3017)" />
+       height="734"
+       id="image3012"
+       x="-339.71429"
+       y="191.07646" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -92,7 +93,10 @@
          id="tspan3064"
          x="48.5"
          y="378.86218" /></text>
-    <a xlink:href="../golm/index.html" target="_parent">
+    <a
+       xlink:href="../golm/index.html"
+       id="a3107"
+       target="_parent">
       <g
          id="g3894">
         <g
@@ -168,7 +172,10 @@
              sodipodi:role="line">SFB1294</tspan></text>
       </g>
     </a>
-    <a xlink:href="../hpi/index.html" target="_parent">
+    <a
+       xlink:href="../hpi/index.html"
+       id="a3120"
+       target="_parent">
       <g
          id="g3882">
         <path
@@ -244,8 +251,12 @@
              sodipodi:role="line">HPI</tspan></text>
       </g>
     </a>
-    <a xlink:href="https://www.openstreetmap.org/copyright" target="_parent">
-      <g id="copyright">
+    <a
+       xlink:href="https://www.openstreetmap.org/copyright"
+       target="_parent"
+       id="a3133">
+      <g
+         id="copyright">
         <rect
            style="fill:#ffffff;fill-opacity:0.73891625;stroke:#0055d4;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
            id="rect3876"
@@ -264,6 +275,86 @@
              id="tspan3880"
              x="693.02209"
              y="897.91626">© OpenStreetMap contributors</tspan></text>
+      </g>
+    </a>
+    <a
+       id="a3120-3"
+       target="_parent"
+       transform="translate(-248.70738,55.412329)"
+       xlink:href="../machbar/index.html">
+      <g
+         id="g3882-6">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#0055d4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           d="m 688.01095,539.12396 -36.875,25.71875 -28,0 0,73 28.75,0 35.75,0 0.75,0 35.75,0 28.75,0 0,-73 -28,0 z"
+           id="path3070-7"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccccc" />
+        <g
+           transform="translate(439.42857,-90.57147)"
+           id="g3040-5"
+           inkscape:label="Ebene 1">
+          <path
+             id="path3042-3"
+             d="m 248.57115,572.18364 a 28.749996,28.749996 0 0 0 -28.75,28.75 28.749996,28.749996 0 0 0 28.75,28.75 l 0,-57.5 z"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             inkscape:connector-curvature="0" />
+          <circle
+             transform="scale(-1,-1)"
+             r="28.750393"
+             cy="-600.93365"
+             cx="-248.57143"
+             id="circle3044-5"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             sodipodi:cx="-248.57143"
+             sodipodi:cy="-600.93365"
+             sodipodi:rx="28.750393"
+             sodipodi:ry="28.750393"
+             d="m -219.82103,-600.93365 c 0,15.8784 -12.87199,28.75039 -28.7504,28.75039 -15.8784,0 -28.75039,-12.87199 -28.75039,-28.75039 0,-15.87841 12.87199,-28.7504 28.75039,-28.7504 15.87841,0 28.7504,12.87199 28.7504,28.7504 z" />
+          <path
+             id="path3046-6"
+             d="m 248.57115,629.68364 a 28.749996,28.749996 0 0 0 28.75,-28.75 28.749996,28.749996 0 0 0 -27.7207,-28.71289 14.375196,14.375196 0 0 1 13.3457,14.33789 14.375196,14.375196 0 0 1 -14.375,14.375 14.375196,14.375196 0 0 0 -14.375,14.375 14.375196,14.375196 0 0 0 14.375,14.375 z"
+             style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3048-2"
+             d="m 248.57144,572.18363 0,28.75 a 14.375196,14.375196 0 0 0 14.375,-14.375 14.375196,14.375196 0 0 0 -14.375,-14.375 z"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+          <circle
+             transform="scale(-1,-1)"
+             r="4.7923226"
+             cy="-586.55865"
+             cx="-248.57143"
+             id="circle3050-9"
+             style="color:#000000;fill:none;stroke:#000000;stroke-width:3.54330707;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             sodipodi:cx="-248.57143"
+             sodipodi:cy="-586.55865"
+             sodipodi:rx="4.7923226"
+             sodipodi:ry="4.7923226"
+             d="m -243.7791,-586.55865 c 0,2.64672 -2.1456,4.79232 -4.79233,4.79232 -2.64672,0 -4.79232,-2.1456 -4.79232,-4.79232 0,-2.64673 2.1456,-4.79233 4.79232,-4.79233 2.64673,0 4.79233,2.1456 4.79233,4.79233 z" />
+          <rect
+             transform="scale(-1,-1)"
+             rx="0.88582677"
+             ry="0.88582677"
+             y="-620.10095"
+             x="-249.45695"
+             height="9.5846481"
+             width="1.7716535"
+             id="rect3052-1"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.77165353;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        </g>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3066-7-2"
+           y="615.41498"
+           x="639.79803"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="615.41498"
+             x="639.79803"
+             id="tspan3068-5-7"
+             sodipodi:role="line">#tec</tspan></text>
       </g>
     </a>
   </g>
