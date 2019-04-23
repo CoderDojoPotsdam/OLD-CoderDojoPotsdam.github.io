@@ -1,0 +1,10 @@
+{
+  "url": [
+    "http://wilap.de:3000/filter?url=https://calendar.google.com/calendar/ical/j68lhv614hbv3u4ttbrs6glhpg%2540group.calendar.google.com/public/basic.ics&filter=(%23TEC)",
+    "https://zen.coderdojo.com/api/3.0/dojos/0be123e7-c9be-4002-a3cf-f0c8550f749a/events.ics?query[status]=published&query[afterDate]=1556011370&query[utcOffset]=120",
+    "https://zen.coderdojo.com/api/3.0/dojos/0f3ad306-5ccb-478f-8282-c953d11cd252/events.ics?query[status]=published&query[afterDate]=1556046562&query[utcOffset]=120"
+  ],
+  "title": "CoderDojo Potsdam",
+  "language": "de",
+  "skin": "dhtmlxscheduler_flat.css"
+}
