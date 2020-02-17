@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="CoderDojos in Potsdam">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>CoderDojos in Potsdam</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="icon" type="image/svg+xml" href="bilder/logo-small.svg" />
+    <script type="text/javascript" src="js/load-events.js"></script>
+  </head>
+  <body>
+    <div class="dojo-listing grid-whole equalize" id="coderdojos">
+      <div class="dojo s-grid-whole m-grid-whole l-grid-whole padded">
+        <h1>CoderDojos in Potsdam:</h1>
+      </div>
+      <div class="dojo s-grid-whole m-grid-whole l-grid-half padded-inner">
+        <a href="hpi/index.html">
+          <h1>Potsdam @ HPI</h1>
+        </a>
+        <div class="next-event" id="0be123e7-c9be-4002-a3cf-f0c8550f749a">
+        </div>
+      </div>
+      <div class="dojo s-grid-whole m-grid-whole l-grid-half padded-inner">
+        <a href="golm/index.html">
+          <h1>Potsdam @ SFB1294</h1>
+        </a>
+        <div class="next-event" id="0f3ad306-5ccb-478f-8282-c953d11cd252">
+        </div>
+      </div>
+      <div class="dojo s-grid-whole m-grid-whole l-grid-half padded-inner">
+        <a href="machbar/index.html">
+          <h1>#tec @ machBar</h1>
+        </a>
+        <!--<div class="next-event" id="18bc4d5f-42ec-4256-a896-565d3c38deac">-->
+        <div>
+          <a href="#open-web-calendar">Termine sind unten im Kalender und fast jede Woche.</a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <embed class="map" src="bilder/karte.svg" type="image/svg+xml" id="map"/>
+      <iframe id="open-web-calendar"
+        style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
+        src="https://open-web-calendar.herokuapp.com/calendar.html?specification_url=https://coderdojopotsdam.github.io/calendar-configuration.json"
+        sandbox="allow-scripts allow-same-origin allow-top-navigation"
+        allowTransparency="true" scrolling="no"
+        frameborder="0" height="600px" width="100%"></iframe>
+    </div>
+    <div class="footer">
+      <div class="link s-grid-half m-grid-half l-grid-half">
+        <a href="https://github.com/CoderDojoPotsdam/CoderDojoPotsdam.github.io/blob/master/index.html">Seite verbessern</a>
+      </div>
+      <div class="link s-grid-half m-grid-half l-grid-half">
+        <a href="https://github.com/CoderDojoPotsdam/CoderDojoPotsdam.github.io/blob/master/LICENSE">Lizenz AGPL</a>
+      </div>
+    </div>
+  </body>
+</html>
